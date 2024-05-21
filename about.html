@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - The New Pillar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <!-- Navbar Section -->
     <nav class="navbar">
-      <div class="navbar__container">
-        <a href="/" id="navbar__logo">
-          <img src="images/TheNewPillarLogo1.PNG" alt="pic" id="main__img" />
-          <span>The New Pillar</span>
-        </a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <img src="images/TheNewPillarLogo1.PNG" alt="The New Pillar Logo" id="main__img">
+                <span>The New Pillar</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="media.html" class="navbar__links">Media</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="topics.html" class="navbar__links">Topics</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="sponsors.html" class="navbar__links">Sponsors</a>
+                </li>
+            </ul>
         </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="/index.html" class="navbar__links"> Home </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/index.html" class="navbar__links"> About </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/about.html" class="navbar__links"> Media </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/topics.html" class="navbar__links"> Topics </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/sponsors.html" class="navbar__links"> Sponsors </a>
-          </li>
-        </ul>
-      </div>
     </nav>
 
+    <!-- About Section -->
+    <div class="about__section">
+        <div class="about__content">
+            <h1>About The New Pillar</h1>
+            <p>Welcome to The New Pillar, a podcast dedicated to exploring thought-provoking topics, in-depth discussions, and insightful perspectives on current events. Join us as we delve into various subjects with our hosts Marcus and Bear, bringing you a fresh perspective on the pillars of our society.</p>
+        </div>
+    </div>
+
+    <!-- Hosts Section -->
+    <div class="hosts__section">
+        <div class="host">
+            <div class="host__image">
+                <img src="images/marcus.jpg" alt="Marcus">
+            </div>
+            <div class="host__details">
+                <h2>Marcus</h2>
+                <p>Marcus is a seasoned journalist with over 15 years of experience in the media industry. His keen eye for detail and passion for storytelling bring depth and insight to every episode of The New Pillar.</p>
+            </div>
+        </div>
+        <div class="host">
+            <div class="host__image">
+                <img src="images/bear.jpg" alt="Bear">
+            </div>
+            <div class="host__details">
+                <h2>Bear</h2>
+                <p>Bear is a social commentator and researcher who specializes in cultural and societal trends. His analytical mind and engaging conversation style make him an invaluable part of The New Pillar team.</p>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
-  </body>
+</body>
 </html>

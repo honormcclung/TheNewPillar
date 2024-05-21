@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background: #8d5835;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .navbar__container{
+    .navbar__container {
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -119,7 +119,7 @@
         position: absolute;
         top: -1000px;
         opacity: 0;
-        transition: all o.5s ease;
+        transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
         background: #131313;
@@ -196,6 +196,54 @@
     }
 }
 
+/* About Section */
+.about__section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about__content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about__content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Hosts Section */
+.hosts__section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.host {
+    width: 45%;
+    text-align: center;
+}
+
+.host__image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.host__details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.host__details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Adjusting video for mobile */
 .hero-image {
     position: relative;
     background-size: cover;
@@ -205,8 +253,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     overflow: hidden;
     background-color: black;
     z-index: -1;
@@ -222,14 +270,9 @@
     min-height: 80%;
 }
 
-#main__img {
-    height: 100%;
-    width: 30%;
-}
-
-/* Mobile Responsive */
-/* @media screen and (max-width: 780) {
-    .hero-image {
-
+@media screen and (max-width: 768px) {
+    .video-bg {
+        min-width: 100%;
+        min-height: 100%;
     }
-} */
+}
