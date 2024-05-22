@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Media</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - The New Pillar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <!-- Navbar Section -->
     <nav class="navbar">
-      <div class="navbar__container">
-        <a href="/" id="navbar__logo">
-          <img src="images/TheNewPillarLogo1.PNG" alt="pic" id="main__img" />
-          <span>The New Pillar</span>
-        </a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <img src="images/TheNewPillarLogo1.PNG" alt="The New Pillar Logo" id="main__img">
+                <span>The New Pillar</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="media.html" class="navbar__links">Media</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="topics.html" class="navbar__links">Topics</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="sponsors.html" class="navbar__links">Sponsors</a>
+                </li>
+            </ul>
         </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="/index.html" class="navbar__links"> Home </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/about.html" class="navbar__links"> About </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/media.html" class="navbar__links"> Media </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/topics.html" class="navbar__links"> Topics </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/sponsors.html" class="navbar__links"> Sponsors </a>
-          </li>
-        </ul>
-      </div>
     </nav>
 
+    <!-- Watch Us Now Section -->
+    <section class="watch-us">
+        <h1>Watch Us Now</h1>
+        <a href="https://www.youtube.com/channel/your_channel" class="youtube-link">Visit our YouTube Channel</a>
+        <div class="latest-video">
+            <img src="images/latest-video.jpg" alt="Latest Video Thumbnail" class="latest-video-thumbnail">
+            <p class="latest-video-description">Catch our latest episode where we discuss...</p>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-media">
+        <h2>Follow Us on Social Media</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/your_instagram" class="social-icon">
+                <img src="images/instagramIcon.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@your_tiktok" class="social-icon">
+                <img src="images/TikTokIcon.png" alt="TikTok">
+            </a>
+        </div>
+    </section>
+
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
